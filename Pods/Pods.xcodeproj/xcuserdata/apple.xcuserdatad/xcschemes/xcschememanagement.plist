@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-LabelAnimation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LabelAnimationTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LabelAnimationUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UICountingLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1F3C282EFF4C5A6DC7A51086E08B94DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D40960D78646305DF0151A0158D15C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B19EA1A44AE35DEEE3772DF8ECF55C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EED569657B919F792DD40D35C794255F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

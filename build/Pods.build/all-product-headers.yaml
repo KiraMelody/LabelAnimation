@@ -1,0 +1,65 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Developer/LabelAnimation/build/Debug-iphonesimulator/Pods_LabelAnimation.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-LabelAnimation-umbrella.h",
+          'external-contents': "/Users/apple/Developer/LabelAnimation/Pods/Target Support Files/Pods-LabelAnimation/Pods-LabelAnimation-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_LabelAnimation-Swift.h",
+          'external-contents': "/Users/apple/Developer/LabelAnimation/build/Debug-iphonesimulator/Pods_LabelAnimation.framework/Headers/Pods_LabelAnimation-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Developer/LabelAnimation/build/Debug-iphonesimulator/Pods_LabelAnimation.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/apple/Developer/LabelAnimation/build/Pods.build/Debug-iphonesimulator/Pods-LabelAnimation.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Developer/LabelAnimation/build/Debug-iphonesimulator/UICountingLabel/UICountingLabel.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "UICountingLabel-Swift.h",
+          'external-contents': "/Users/apple/Developer/LabelAnimation/build/Debug-iphonesimulator/UICountingLabel/UICountingLabel.framework/Headers/UICountingLabel-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "UICountingLabel-umbrella.h",
+          'external-contents': "/Users/apple/Developer/LabelAnimation/Pods/Target Support Files/UICountingLabel/UICountingLabel-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "UICountingLabel.h",
+          'external-contents': "/Users/apple/Developer/LabelAnimation/Pods/UICountingLabel/UICountingLabel.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/apple/Developer/LabelAnimation/build/Debug-iphonesimulator/UICountingLabel/UICountingLabel.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/apple/Developer/LabelAnimation/build/Pods.build/Debug-iphonesimulator/UICountingLabel.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

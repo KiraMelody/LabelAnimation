@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		180A84A31D56D9E800129DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A84A21D56D9E800129DED /* AppDelegate.swift */; };
 		180A84A51D56D9E800129DED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A84A41D56D9E800129DED /* ViewController.swift */; };
-		180A84A81D56D9E800129DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180A84A61D56D9E800129DED /* Main.storyboard */; };
 		180A84AA1D56D9E800129DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180A84A91D56D9E800129DED /* Assets.xcassets */; };
 		180A84AD1D56D9E800129DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180A84AB1D56D9E800129DED /* LaunchScreen.storyboard */; };
 		180A84B81D56D9EA00129DED /* LabelAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A84B71D56D9EA00129DED /* LabelAnimationTests.swift */; };
 		180A84C31D56D9EA00129DED /* LabelAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A84C21D56D9EA00129DED /* LabelAnimationUITests.swift */; };
+		18FA78A01D5716AC009F871F /* UITransitionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA789F1D5716AC009F871F /* UITransitionLabel.swift */; };
+		4C5289FA63F8FBB2BB2166DE /* Pods_LabelAnimationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DEB07014FAE0538DF6ABFB /* Pods_LabelAnimationTests.framework */; };
+		856B10BEF70D02C78C40EC80 /* Pods_LabelAnimationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBED2063733D85E5B7CE5025 /* Pods_LabelAnimationUITests.framework */; };
+		FFB4E7CAFB1F1338EEE1FB70 /* Pods_LabelAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D0CB2BE2C5AB23F44F3DBB /* Pods_LabelAnimation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		063A95ED42E3773A2566935B /* Pods-LabelAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelAnimationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LabelAnimationUITests/Pods-LabelAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
 		180A849F1D56D9E800129DED /* LabelAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabelAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		180A84A21D56D9E800129DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		180A84A41D56D9E800129DED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		180A84A71D56D9E800129DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		180A84A91D56D9E800129DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180A84AC1D56D9E800129DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180A84AE1D56D9E800129DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,15 @@
 		180A84BE1D56D9EA00129DED /* LabelAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180A84C21D56D9EA00129DED /* LabelAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelAnimationUITests.swift; sourceTree = "<group>"; };
 		180A84C41D56D9EA00129DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FA789F1D5716AC009F871F /* UITransitionLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITransitionLabel.swift; sourceTree = "<group>"; };
+		21BBB74A76C9A738A06F58B3 /* Pods-LabelAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelAnimationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LabelAnimationTests/Pods-LabelAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
+		38DEB07014FAE0538DF6ABFB /* Pods_LabelAnimationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabelAnimationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		605A91E212A7432B808F624B /* Pods-LabelAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelAnimationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LabelAnimationTests/Pods-LabelAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A17A823FEBF76311F307050F /* Pods-LabelAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LabelAnimation/Pods-LabelAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		A2D0CB2BE2C5AB23F44F3DBB /* Pods_LabelAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabelAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EC6C31665D90CBFE19D196 /* Pods-LabelAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelAnimationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LabelAnimationUITests/Pods-LabelAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBED2063733D85E5B7CE5025 /* Pods_LabelAnimationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabelAnimationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF939857C9134EDFC12266E9 /* Pods-LabelAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabelAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-LabelAnimation/Pods-LabelAnimation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB4E7CAFB1F1338EEE1FB70 /* Pods_LabelAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5289FA63F8FBB2BB2166DE /* Pods_LabelAnimationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				856B10BEF70D02C78C40EC80 /* Pods_LabelAnimationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				180A84B61D56D9EA00129DED /* LabelAnimationTests */,
 				180A84C11D56D9EA00129DED /* LabelAnimationUITests */,
 				180A84A01D56D9E800129DED /* Products */,
+				3872637CCAB8E2C9E1E2FEA5 /* Pods */,
+				DAC92E7813B82905F20523A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +116,7 @@
 			children = (
 				180A84A21D56D9E800129DED /* AppDelegate.swift */,
 				180A84A41D56D9E800129DED /* ViewController.swift */,
-				180A84A61D56D9E800129DED /* Main.storyboard */,
+				18FA789F1D5716AC009F871F /* UITransitionLabel.swift */,
 				180A84A91D56D9E800129DED /* Assets.xcassets */,
 				180A84AB1D56D9E800129DED /* LaunchScreen.storyboard */,
 				180A84AE1D56D9E800129DED /* Info.plist */,
@@ -125,6 +142,29 @@
 			path = LabelAnimationUITests;
 			sourceTree = "<group>";
 		};
+		3872637CCAB8E2C9E1E2FEA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A17A823FEBF76311F307050F /* Pods-LabelAnimation.debug.xcconfig */,
+				FF939857C9134EDFC12266E9 /* Pods-LabelAnimation.release.xcconfig */,
+				605A91E212A7432B808F624B /* Pods-LabelAnimationTests.debug.xcconfig */,
+				21BBB74A76C9A738A06F58B3 /* Pods-LabelAnimationTests.release.xcconfig */,
+				E2EC6C31665D90CBFE19D196 /* Pods-LabelAnimationUITests.debug.xcconfig */,
+				063A95ED42E3773A2566935B /* Pods-LabelAnimationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAC92E7813B82905F20523A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2D0CB2BE2C5AB23F44F3DBB /* Pods_LabelAnimation.framework */,
+				38DEB07014FAE0538DF6ABFB /* Pods_LabelAnimationTests.framework */,
+				EBED2063733D85E5B7CE5025 /* Pods_LabelAnimationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180A84C71D56D9EA00129DED /* Build configuration list for PBXNativeTarget "LabelAnimation" */;
 			buildPhases = (
+				460F58A26D1ACFA868B64438 /* [CP] Check Pods Manifest.lock */,
 				180A849B1D56D9E800129DED /* Sources */,
 				180A849C1D56D9E800129DED /* Frameworks */,
 				180A849D1D56D9E800129DED /* Resources */,
+				C7AE013E9A9BED69119DFD7A /* [CP] Embed Pods Frameworks */,
+				1AA990D2FF04ADF5581589D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180A84CA1D56D9EA00129DED /* Build configuration list for PBXNativeTarget "LabelAnimationTests" */;
 			buildPhases = (
+				66EEE3D98D1C5AF552BE509B /* [CP] Check Pods Manifest.lock */,
 				180A84AF1D56D9EA00129DED /* Sources */,
 				180A84B01D56D9EA00129DED /* Frameworks */,
 				180A84B11D56D9EA00129DED /* Resources */,
+				E0BC85FECA30FDC37D2992A2 /* [CP] Embed Pods Frameworks */,
+				46DD8CEA9F8CBB2D45852769 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 180A84CD1D56D9EA00129DED /* Build configuration list for PBXNativeTarget "LabelAnimationUITests" */;
 			buildPhases = (
+				83E2D9F64330E25A07E8A3A7 /* [CP] Check Pods Manifest.lock */,
 				180A84BA1D56D9EA00129DED /* Sources */,
 				180A84BB1D56D9EA00129DED /* Frameworks */,
 				180A84BC1D56D9EA00129DED /* Resources */,
+				5D822FC4D160A8DF3A2A00D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +282,6 @@
 			files = (
 				180A84AD1D56D9E800129DED /* LaunchScreen.storyboard in Resources */,
 				180A84AA1D56D9E800129DED /* Assets.xcassets in Resources */,
-				180A84A81D56D9E800129DED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +301,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AA990D2FF04ADF5581589D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabelAnimation/Pods-LabelAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		460F58A26D1ACFA868B64438 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46DD8CEA9F8CBB2D45852769 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabelAnimationTests/Pods-LabelAnimationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D822FC4D160A8DF3A2A00D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabelAnimationUITests/Pods-LabelAnimationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66EEE3D98D1C5AF552BE509B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83E2D9F64330E25A07E8A3A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7AE013E9A9BED69119DFD7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabelAnimation/Pods-LabelAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0BC85FECA30FDC37D2992A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabelAnimationTests/Pods-LabelAnimationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		180A849B1D56D9E800129DED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				180A84A51D56D9E800129DED /* ViewController.swift in Sources */,
+				18FA78A01D5716AC009F871F /* UITransitionLabel.swift in Sources */,
 				180A84A31D56D9E800129DED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +467,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		180A84A61D56D9E800129DED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				180A84A71D56D9E800129DED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		180A84AB1D56D9E800129DED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -402,6 +565,7 @@
 		};
 		180A84C81D56D9EA00129DED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17A823FEBF76311F307050F /* Pods-LabelAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LabelAnimation/Info.plist;
@@ -413,6 +577,7 @@
 		};
 		180A84C91D56D9EA00129DED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF939857C9134EDFC12266E9 /* Pods-LabelAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LabelAnimation/Info.plist;
@@ -424,6 +589,7 @@
 		};
 		180A84CB1D56D9EA00129DED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605A91E212A7432B808F624B /* Pods-LabelAnimationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LabelAnimationTests/Info.plist;
@@ -436,6 +602,7 @@
 		};
 		180A84CC1D56D9EA00129DED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BBB74A76C9A738A06F58B3 /* Pods-LabelAnimationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LabelAnimationTests/Info.plist;
@@ -448,6 +615,7 @@
 		};
 		180A84CE1D56D9EA00129DED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2EC6C31665D90CBFE19D196 /* Pods-LabelAnimationUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LabelAnimationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -459,6 +627,7 @@
 		};
 		180A84CF1D56D9EA00129DED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063A95ED42E3773A2566935B /* Pods-LabelAnimationUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LabelAnimationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -487,6 +656,7 @@
 				180A84C91D56D9EA00129DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180A84CA1D56D9EA00129DED /* Build configuration list for PBXNativeTarget "LabelAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +665,7 @@
 				180A84CC1D56D9EA00129DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180A84CD1D56D9EA00129DED /* Build configuration list for PBXNativeTarget "LabelAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +674,7 @@
 				180A84CF1D56D9EA00129DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

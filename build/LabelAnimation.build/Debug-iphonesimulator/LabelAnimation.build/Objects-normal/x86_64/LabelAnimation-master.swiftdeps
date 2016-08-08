@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "176b441424a48bf7ce456475a4cb4a7e"
+build_time: [523887020, 266626000]
+inputs:
+  "/Users/apple/Developer/LabelAnimation/LabelAnimation/ViewController.swift": [523885515, 0]
+  "/Users/apple/Developer/LabelAnimation/LabelAnimation/UITransitionLabel.swift": [523887019, 0]
+  "/Users/apple/Developer/LabelAnimation/LabelAnimation/AppDelegate.swift": [523854322, 0]

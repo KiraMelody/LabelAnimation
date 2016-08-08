@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030A805CDB3640D11E0EF529151FBD38 /* Pods-LabelAnimationUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14584DB0395447E2D56A43FC6206C50E /* Pods-LabelAnimationUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EEA2EAA90D9638A4CBB711FC58257F8 /* UICountingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6402EE66D9FBEE4F96652C84BFAFBE0 /* UICountingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10C161751314496F7BB0AEC8D8702D65 /* Pods-LabelAnimationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6404BF3BBC2B379F0C2AD7748D73CDB0 /* Pods-LabelAnimationTests-dummy.m */; };
+		2A644F2B5D22CCE034668F2377307348 /* UICountingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C390EDF0AAB9BD3C080530CD1BBD8C5F /* UICountingLabel-dummy.m */; };
+		302D85C3A89B9F75EC2D65156F9E90A7 /* Pods-LabelAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4893EA63FD88CC72721DB577951D6FF8 /* Pods-LabelAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		603FC5C1E95FCFE368C9DF2A79A6C5C9 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E14CA6AC3359B6BCF2D2C4E16F3D73 /* UICountingLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		72A013C87EF2CD1E58E9ADC141A4EEC8 /* Pods-LabelAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C662AE8915132EABDED22424FDA19D /* Pods-LabelAnimation-dummy.m */; };
+		8463087BD59175803F1FCDB041C297F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		87161D374F87D7FF55D072BA9C49B8C5 /* Pods-LabelAnimationUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E9687A06550FE7B0A75204BA630BF7 /* Pods-LabelAnimationUITests-dummy.m */; };
+		A416434660C0DF46E08ABD4FC8E7F3E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		ACEC897AD0CD80579C1E183E411D2AF3 /* UICountingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BC17D92FC4DCF20B03295F65F576F6 /* UICountingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEDEE16C32A9B18FC864A18E328A24B3 /* Pods-LabelAnimationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8669F71BB005667BA52FA8648BA38220 /* Pods-LabelAnimationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1177EC4067B924D1DC28716F73099F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D8C254EFE5E234B8306C66264E6A0C40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97B0D137186FAFDF778E58124D1601F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D40960D78646305DF0151A0158D15C6;
+			remoteInfo = UICountingLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0462B4B046C64B51A4C2CA1C4E531A1E /* Pods-LabelAnimationUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LabelAnimationUITests-resources.sh"; sourceTree = "<group>"; };
+		06DF596D1774CA163BD3964B11DDB35E /* Pods-LabelAnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		09943EA9297DF0A1DAED1BBF1BA4600E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B26252D635DFB667CB9BAB15F155916 /* Pods-LabelAnimationTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LabelAnimationTests-frameworks.sh"; sourceTree = "<group>"; };
+		0DAAECE9232170ADA4474950DA528F95 /* UICountingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UICountingLabel.modulemap; sourceTree = "<group>"; };
+		14584DB0395447E2D56A43FC6206C50E /* Pods-LabelAnimationUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LabelAnimationUITests-umbrella.h"; sourceTree = "<group>"; };
+		188E6898244A79EBF8AC2661A017A1DE /* Pods-LabelAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		24C662AE8915132EABDED22424FDA19D /* Pods-LabelAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LabelAnimation-dummy.m"; sourceTree = "<group>"; };
+		2DE1E55ACE4C820A7110F3C653AD1873 /* UICountingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICountingLabel.xcconfig; sourceTree = "<group>"; };
+		3E8A8047BE150F1BFF3F2E3CAAC505EF /* Pods-LabelAnimation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LabelAnimation-frameworks.sh"; sourceTree = "<group>"; };
+		3F7CC5909C62AC6D449D0C7258FEF740 /* UICountingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICountingLabel-prefix.pch"; sourceTree = "<group>"; };
+		4893EA63FD88CC72721DB577951D6FF8 /* Pods-LabelAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LabelAnimation-umbrella.h"; sourceTree = "<group>"; };
+		51AC4CC1A3F18B7B533054F492D4BAE4 /* Pods-LabelAnimation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelAnimation-acknowledgements.plist"; sourceTree = "<group>"; };
+		58E14CA6AC3359B6BCF2D2C4E16F3D73 /* UICountingLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		5ED17D693E7A1F5C8C7C25C64EC07ABC /* Pods-LabelAnimationUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LabelAnimationUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6404BF3BBC2B379F0C2AD7748D73CDB0 /* Pods-LabelAnimationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LabelAnimationTests-dummy.m"; sourceTree = "<group>"; };
+		69E9687A06550FE7B0A75204BA630BF7 /* Pods-LabelAnimationUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LabelAnimationUITests-dummy.m"; sourceTree = "<group>"; };
+		6BB2EFB64B5889111076F9DE42053385 /* Pods_LabelAnimationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabelAnimationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C23915EAC2EE93FF7B60BA2BCA1BE5C /* Pods_LabelAnimationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabelAnimationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8669F71BB005667BA52FA8648BA38220 /* Pods-LabelAnimationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LabelAnimationTests-umbrella.h"; sourceTree = "<group>"; };
+		8A49A3806C6D32D1EB80735B713C62FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91EB34AB90EA8C1373192EBE743F0714 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FC8FDF275767BD11EA23A591E33EA5 /* Pods-LabelAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		964D75495813AE6219D22975D335FBAA /* Pods-LabelAnimationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LabelAnimationTests.modulemap"; sourceTree = "<group>"; };
+		AC91A87919096B3E68ED2D654C082AF7 /* Pods-LabelAnimationTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LabelAnimationTests-resources.sh"; sourceTree = "<group>"; };
+		B1C161D2C827CA87176C1B2B1D514D1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D8706D9B245ACEA317F24085DAB53C /* Pods-LabelAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LabelAnimation.modulemap"; sourceTree = "<group>"; };
+		B6402EE66D9FBEE4F96652C84BFAFBE0 /* UICountingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICountingLabel-umbrella.h"; sourceTree = "<group>"; };
+		B91CE28FBB76BC911D9179BE1FD3CF74 /* Pods-LabelAnimationUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelAnimationUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF757C5066AA84044C0B29BDDBEAAF3D /* Pods-LabelAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		C111F6F7A311CE3C88B61843DABA346F /* Pods_LabelAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabelAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C390EDF0AAB9BD3C080530CD1BBD8C5F /* UICountingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICountingLabel-dummy.m"; sourceTree = "<group>"; };
+		C8D080BF2626E0EEEC299578B0680CEB /* Pods-LabelAnimationUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LabelAnimationUITests.modulemap"; sourceTree = "<group>"; };
+		C91C9FCCCEF5B49BF39CF0E5B0EEB48C /* Pods-LabelAnimation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LabelAnimation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEE5CF2E309A5C56C45EF8E391F9193A /* Pods-LabelAnimationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LabelAnimationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2424FABE45B932F04691B04266D3C1A /* UICountingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICountingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BC17D92FC4DCF20B03295F65F576F6 /* UICountingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		DA06470C16214D6D172BAEA71B259463 /* Pods-LabelAnimation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LabelAnimation-resources.sh"; sourceTree = "<group>"; };
+		DBE5A19C9861CB2D0CBCD670AF999C00 /* Pods-LabelAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
+		E361EDBEF82890A12B93549E11AFE7E2 /* Pods-LabelAnimationUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LabelAnimationUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F76F77EEB4AB9A609C6A8EE59C658080 /* Pods-LabelAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LabelAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		FB7A96C54FC7820DE95B0BECF20BB9DB /* Pods-LabelAnimationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LabelAnimationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50475940510E07D4B51CCD13F9083EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8463087BD59175803F1FCDB041C297F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8778C23422181745DBE5332EC92C4F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1177EC4067B924D1DC28716F73099F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFDF41B4D1E52269E718A2D6518D542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A416434660C0DF46E08ABD4FC8E7F3E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA0DB9D251FC06298E6719DFB735890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C254EFE5E234B8306C66264E6A0C40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01562926DCA3698232488353069AFDF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C111F6F7A311CE3C88B61843DABA346F /* Pods_LabelAnimation.framework */,
+				6BB2EFB64B5889111076F9DE42053385 /* Pods_LabelAnimationTests.framework */,
+				6C23915EAC2EE93FF7B60BA2BCA1BE5C /* Pods_LabelAnimationUITests.framework */,
+				D2424FABE45B932F04691B04266D3C1A /* UICountingLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4785BDF96BD171EE79F43DC978438E2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A49A3806C6D32D1EB80735B713C62FC /* Info.plist */,
+				0DAAECE9232170ADA4474950DA528F95 /* UICountingLabel.modulemap */,
+				2DE1E55ACE4C820A7110F3C653AD1873 /* UICountingLabel.xcconfig */,
+				C390EDF0AAB9BD3C080530CD1BBD8C5F /* UICountingLabel-dummy.m */,
+				3F7CC5909C62AC6D449D0C7258FEF740 /* UICountingLabel-prefix.pch */,
+				B6402EE66D9FBEE4F96652C84BFAFBE0 /* UICountingLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICountingLabel";
+			sourceTree = "<group>";
+		};
+		744673F53BFFEF825F6BB669B21F1EB9 /* Pods-LabelAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91EB34AB90EA8C1373192EBE743F0714 /* Info.plist */,
+				C8D080BF2626E0EEEC299578B0680CEB /* Pods-LabelAnimationUITests.modulemap */,
+				5ED17D693E7A1F5C8C7C25C64EC07ABC /* Pods-LabelAnimationUITests-acknowledgements.markdown */,
+				B91CE28FBB76BC911D9179BE1FD3CF74 /* Pods-LabelAnimationUITests-acknowledgements.plist */,
+				69E9687A06550FE7B0A75204BA630BF7 /* Pods-LabelAnimationUITests-dummy.m */,
+				E361EDBEF82890A12B93549E11AFE7E2 /* Pods-LabelAnimationUITests-frameworks.sh */,
+				0462B4B046C64B51A4C2CA1C4E531A1E /* Pods-LabelAnimationUITests-resources.sh */,
+				14584DB0395447E2D56A43FC6206C50E /* Pods-LabelAnimationUITests-umbrella.h */,
+				91FC8FDF275767BD11EA23A591E33EA5 /* Pods-LabelAnimationUITests.debug.xcconfig */,
+				188E6898244A79EBF8AC2661A017A1DE /* Pods-LabelAnimationUITests.release.xcconfig */,
+			);
+			name = "Pods-LabelAnimationUITests";
+			path = "Target Support Files/Pods-LabelAnimationUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EB01796D8B8ABBB9529B519B17B0DC9A /* Pods */,
+				01562926DCA3698232488353069AFDF7 /* Products */,
+				FED63ADDDF948F37D57402496715D315 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91A8C16970B93DB019BF478F3B3477CA /* Pods-LabelAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B1C161D2C827CA87176C1B2B1D514D1E /* Info.plist */,
+				B3D8706D9B245ACEA317F24085DAB53C /* Pods-LabelAnimation.modulemap */,
+				C91C9FCCCEF5B49BF39CF0E5B0EEB48C /* Pods-LabelAnimation-acknowledgements.markdown */,
+				51AC4CC1A3F18B7B533054F492D4BAE4 /* Pods-LabelAnimation-acknowledgements.plist */,
+				24C662AE8915132EABDED22424FDA19D /* Pods-LabelAnimation-dummy.m */,
+				3E8A8047BE150F1BFF3F2E3CAAC505EF /* Pods-LabelAnimation-frameworks.sh */,
+				DA06470C16214D6D172BAEA71B259463 /* Pods-LabelAnimation-resources.sh */,
+				4893EA63FD88CC72721DB577951D6FF8 /* Pods-LabelAnimation-umbrella.h */,
+				BF757C5066AA84044C0B29BDDBEAAF3D /* Pods-LabelAnimation.debug.xcconfig */,
+				F76F77EEB4AB9A609C6A8EE59C658080 /* Pods-LabelAnimation.release.xcconfig */,
+			);
+			name = "Pods-LabelAnimation";
+			path = "Target Support Files/Pods-LabelAnimation";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE3CFBB3907BDF82C75C1096D712872C /* Pods-LabelAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				09943EA9297DF0A1DAED1BBF1BA4600E /* Info.plist */,
+				964D75495813AE6219D22975D335FBAA /* Pods-LabelAnimationTests.modulemap */,
+				CEE5CF2E309A5C56C45EF8E391F9193A /* Pods-LabelAnimationTests-acknowledgements.markdown */,
+				FB7A96C54FC7820DE95B0BECF20BB9DB /* Pods-LabelAnimationTests-acknowledgements.plist */,
+				6404BF3BBC2B379F0C2AD7748D73CDB0 /* Pods-LabelAnimationTests-dummy.m */,
+				0B26252D635DFB667CB9BAB15F155916 /* Pods-LabelAnimationTests-frameworks.sh */,
+				AC91A87919096B3E68ED2D654C082AF7 /* Pods-LabelAnimationTests-resources.sh */,
+				8669F71BB005667BA52FA8648BA38220 /* Pods-LabelAnimationTests-umbrella.h */,
+				06DF596D1774CA163BD3964B11DDB35E /* Pods-LabelAnimationTests.debug.xcconfig */,
+				DBE5A19C9861CB2D0CBCD670AF999C00 /* Pods-LabelAnimationTests.release.xcconfig */,
+			);
+			name = "Pods-LabelAnimationTests";
+			path = "Target Support Files/Pods-LabelAnimationTests";
+			sourceTree = "<group>";
+		};
+		D8368351B4C565C1163F6AB09EB9690E /* UICountingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D4BC17D92FC4DCF20B03295F65F576F6 /* UICountingLabel.h */,
+				58E14CA6AC3359B6BCF2D2C4E16F3D73 /* UICountingLabel.m */,
+				4785BDF96BD171EE79F43DC978438E2E /* Support Files */,
+			);
+			path = UICountingLabel;
+			sourceTree = "<group>";
+		};
+		EB01796D8B8ABBB9529B519B17B0DC9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8368351B4C565C1163F6AB09EB9690E /* UICountingLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FED63ADDDF948F37D57402496715D315 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91A8C16970B93DB019BF478F3B3477CA /* Pods-LabelAnimation */,
+				BE3CFBB3907BDF82C75C1096D712872C /* Pods-LabelAnimationTests */,
+				744673F53BFFEF825F6BB669B21F1EB9 /* Pods-LabelAnimationUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16055AA7E0B1DFB5C1834716E040BFFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D85C3A89B9F75EC2D65156F9E90A7 /* Pods-LabelAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894BCF60F77AD5FE1A330EFF2AFFCB48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEA2EAA90D9638A4CBB711FC58257F8 /* UICountingLabel-umbrella.h in Headers */,
+				ACEC897AD0CD80579C1E183E411D2AF3 /* UICountingLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6460504BA7F6340E89E4079CA123F81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030A805CDB3640D11E0EF529151FBD38 /* Pods-LabelAnimationUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F6EBDB71D95DF104E68353CE114AF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEDEE16C32A9B18FC864A18E328A24B3 /* Pods-LabelAnimationTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F3C282EFF4C5A6DC7A51086E08B94DD /* Pods-LabelAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11688716893B74EC2DA85E8332BCE813 /* Build configuration list for PBXNativeTarget "Pods-LabelAnimationUITests" */;
+			buildPhases = (
+				6A3EBD19400C5A3CB35A67DFCE4C671C /* Sources */,
+				ABFDF41B4D1E52269E718A2D6518D542 /* Frameworks */,
+				A6460504BA7F6340E89E4079CA123F81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LabelAnimationUITests";
+			productName = "Pods-LabelAnimationUITests";
+			productReference = 6C23915EAC2EE93FF7B60BA2BCA1BE5C /* Pods_LabelAnimationUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D40960D78646305DF0151A0158D15C6 /* UICountingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1452B6791C92EE256C478B1CBF6A2DEA /* Build configuration list for PBXNativeTarget "UICountingLabel" */;
+			buildPhases = (
+				BCFCDD6E7855E7C575C79E25501AD09E /* Sources */,
+				EEA0DB9D251FC06298E6719DFB735890 /* Frameworks */,
+				894BCF60F77AD5FE1A330EFF2AFFCB48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICountingLabel;
+			productName = UICountingLabel;
+			productReference = D2424FABE45B932F04691B04266D3C1A /* UICountingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B19EA1A44AE35DEEE3772DF8ECF55C8 /* Pods-LabelAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A3C822E18BE516CA77BB8BF3AB0777 /* Build configuration list for PBXNativeTarget "Pods-LabelAnimation" */;
+			buildPhases = (
+				8A78869A9D3EB6543CB6C898C960BDFD /* Sources */,
+				50475940510E07D4B51CCD13F9083EF7 /* Frameworks */,
+				16055AA7E0B1DFB5C1834716E040BFFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4D2DADA82B291D904B934DF4F3D8EF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-LabelAnimation";
+			productName = "Pods-LabelAnimation";
+			productReference = C111F6F7A311CE3C88B61843DABA346F /* Pods_LabelAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EED569657B919F792DD40D35C794255F /* Pods-LabelAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A090B278232569CAF479024781D4F7 /* Build configuration list for PBXNativeTarget "Pods-LabelAnimationTests" */;
+			buildPhases = (
+				F72602B86A4A9E6E4905FD8C53D37666 /* Sources */,
+				8778C23422181745DBE5332EC92C4F12 /* Frameworks */,
+				F3F6EBDB71D95DF104E68353CE114AF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LabelAnimationTests";
+			productName = "Pods-LabelAnimationTests";
+			productReference = 6BB2EFB64B5889111076F9DE42053385 /* Pods_LabelAnimationTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 01562926DCA3698232488353069AFDF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B19EA1A44AE35DEEE3772DF8ECF55C8 /* Pods-LabelAnimation */,
+				EED569657B919F792DD40D35C794255F /* Pods-LabelAnimationTests */,
+				1F3C282EFF4C5A6DC7A51086E08B94DD /* Pods-LabelAnimationUITests */,
+				4D40960D78646305DF0151A0158D15C6 /* UICountingLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A3EBD19400C5A3CB35A67DFCE4C671C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87161D374F87D7FF55D072BA9C49B8C5 /* Pods-LabelAnimationUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A78869A9D3EB6543CB6C898C960BDFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A013C87EF2CD1E58E9ADC141A4EEC8 /* Pods-LabelAnimation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFCDD6E7855E7C575C79E25501AD09E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A644F2B5D22CCE034668F2377307348 /* UICountingLabel-dummy.m in Sources */,
+				603FC5C1E95FCFE368C9DF2A79A6C5C9 /* UICountingLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72602B86A4A9E6E4905FD8C53D37666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C161751314496F7BB0AEC8D8702D65 /* Pods-LabelAnimationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4D2DADA82B291D904B934DF4F3D8EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICountingLabel;
+			target = 4D40960D78646305DF0151A0158D15C6 /* UICountingLabel */;
+			targetProxy = 97B0D137186FAFDF778E58124D1601F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B9311229EF54EA946ED3D582AEB8331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF757C5066AA84044C0B29BDDBEAAF3D /* Pods-LabelAnimation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LabelAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LabelAnimation/Pods-LabelAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LabelAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A5809F271448364C7332B6FDC6C08F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE1E55ACE4C820A7110F3C653AD1873 /* UICountingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UICountingLabel/UICountingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICountingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICountingLabel/UICountingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UICountingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		885FB1C10D0D194B3E3073337072D510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FC8FDF275767BD11EA23A591E33EA5 /* Pods-LabelAnimationUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LabelAnimationUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LabelAnimationUITests/Pods-LabelAnimationUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LabelAnimationUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88A10B3351997938E46AB49CB73C16F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE1E55ACE4C820A7110F3C653AD1873 /* UICountingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UICountingLabel/UICountingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICountingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICountingLabel/UICountingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UICountingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C8103DA6CD97F8D8DC0ECCC13515B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DF596D1774CA163BD3964B11DDB35E /* Pods-LabelAnimationTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LabelAnimationTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LabelAnimationTests/Pods-LabelAnimationTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LabelAnimationTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C181B9010C4D60035612EEF240F788B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 188E6898244A79EBF8AC2661A017A1DE /* Pods-LabelAnimationUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LabelAnimationUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LabelAnimationUITests/Pods-LabelAnimationUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LabelAnimationUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D11CE1E562473ADEC5E86DDBFE720524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE5A19C9861CB2D0CBCD670AF999C00 /* Pods-LabelAnimationTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LabelAnimationTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LabelAnimationTests/Pods-LabelAnimationTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LabelAnimationTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7029E6682C01E0C02A3ABDF79766F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F76F77EEB4AB9A609C6A8EE59C658080 /* Pods-LabelAnimation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LabelAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LabelAnimation/Pods-LabelAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LabelAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11688716893B74EC2DA85E8332BCE813 /* Build configuration list for PBXNativeTarget "Pods-LabelAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885FB1C10D0D194B3E3073337072D510 /* Debug */,
+				C181B9010C4D60035612EEF240F788B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1452B6791C92EE256C478B1CBF6A2DEA /* Build configuration list for PBXNativeTarget "UICountingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5809F271448364C7332B6FDC6C08F0 /* Debug */,
+				88A10B3351997938E46AB49CB73C16F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A3C822E18BE516CA77BB8BF3AB0777 /* Build configuration list for PBXNativeTarget "Pods-LabelAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9311229EF54EA946ED3D582AEB8331 /* Debug */,
+				F7029E6682C01E0C02A3ABDF79766F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A090B278232569CAF479024781D4F7 /* Build configuration list for PBXNativeTarget "Pods-LabelAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8103DA6CD97F8D8DC0ECCC13515B6E /* Debug */,
+				D11CE1E562473ADEC5E86DDBFE720524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
